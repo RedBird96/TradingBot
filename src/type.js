@@ -1,0 +1,11 @@
+export const BUY_SELL = Object.freeze({
+  BUY: 0,
+  SELL: 1
+});
+
+export const STATUS = Object.freeze({
+  OK: "SUCCESS",
+  INSUFFICIENT: "ETHEREUM BALANCE INSUFFICIENT",
+  DEPOSIT_FIRST: "DEPOSIT BEFORE BUY",
+  OUT_OF_BUYRANGE: "OUT OF BUY PRICE RANGE"
+});
